@@ -1,0 +1,23 @@
+ONLY FOR WINDOWS 10
+
+- Install reg key "Add Take Ownership" (You can 100% remove later)
+- Go to Windows\System32
+- Make right click in "imageres.dll" and take admin ownership 
+- Rename it adding ".original" at the end: imageres.dll.original 
+- Copy Paste the imageres.dll in this folder	
+- Do the same to zipfldr.dll
+- Rename Refresh Icons  to Refresh Icons.exe and run it (Thanks to Mr.Blade for this utility)
+
+DONE
+
+Now you can remove the context admin ownership with "Remove Take Ownership"
+
+RESTORE ORIGINAL ICONS
+
+- Delete imageres.dll from windows/system32
+- Rename imageres.dll.original to imageres.dll
+- Same for zipfldr.dll
+
+
+Credits to Daniel Ruiz author of Super Flat Remix 
+https://github.com/daniruiz/Super-Flat-Remix
